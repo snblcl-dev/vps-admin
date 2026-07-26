@@ -18,6 +18,8 @@ msg() { echo -e "${CYAN}[$(date '+%H:%M:%S')]${NC} $1"; }
 ok()  { echo -e "${GREEN}[OK]${NC} $1"; }
 err() { echo -e "${RED}[ERROR]${NC} $1"; }
 
+has_command() { command -v "$1" &>/dev/null; }
+
 clear
 echo ""
 echo -e "${CYAN}=============================================="
