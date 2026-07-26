@@ -16,8 +16,7 @@ Script modular para gestionar usuarios y protocolos de tunel/VPN en Ubuntu 22.04
 ## Instalacion
 
 ```bash
-apt update -y && apt upgrade -y
-chmod +x install.sh && ./install.sh
+apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/snblcl-dev/vps-admin/master/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ## Uso
