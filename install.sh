@@ -105,7 +105,7 @@ else
     )
     for file in "${FILES[@]}"; do
         msg "Descargando $file..."
-        curl -sL "$GITHUB_RAW/ChumoGH/ScriptCGH/main/$file" -o "$INSTALL_DIR/$file" 2>/dev/null || true
+        curl -sL "$GITHUB_RAW/snblcl-dev/vps-admin/master/$file" -o "$INSTALL_DIR/$file" 2>/dev/null || true
     done
 fi
 
