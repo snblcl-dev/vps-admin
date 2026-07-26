@@ -1,0 +1,7 @@
+*.swp
+*.swo
+*~
+*.log
+db/usuarios.db
+*.tar.gz
+.DS_Store
